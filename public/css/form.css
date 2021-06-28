@@ -1,0 +1,45 @@
+div.contact-info {
+  margin: auto;
+  width: 40em;
+}
+
+form {
+  margin: 32px auto;
+  padding: 20px 0;
+  max-width: 90vw;
+  width: 40em;
+  background: tan;
+}
+form div {
+  display: grid;
+  grid: auto/40% 60%;
+  width: 30em;
+  max-width: 90vw;
+  margin: 8px auto auto;
+}
+form div label {
+  text-align: right;
+  margin-right: 10px;
+}
+form div input {
+  font-family: "Nunito", sans-serif;
+}
+form div textarea {
+  font-family: "Nunito", sans-serif;
+}
+form div textarea#location {
+  height: 4em;
+}
+form div .radio-option {
+  margin-left: 0.2em;
+  display: block;
+}
+form div .radio-option > label > input {
+  margin-left: 25px;
+  width: -webkit-fill-available;
+}
+form input[type=submit] {
+  display: block;
+  padding: 10px;
+  margin: 20px auto auto;
+}
