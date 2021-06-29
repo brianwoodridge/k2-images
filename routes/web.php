@@ -24,5 +24,6 @@ Route::get('/contact', function () {return view('contact');})->name('contact');
 
 Route::post('/contact-submit', function (Request $request) {
     Mail::to('briantumbles@gmail.com')->send(new ContactForm($request));
-    return view('success');
+    $data = ['submit' => true];
+    return view('/contact', $data);
 })->name('contact-post');

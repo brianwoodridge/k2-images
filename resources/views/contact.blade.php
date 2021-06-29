@@ -9,6 +9,9 @@
         <p>Fill out the form below or feel free to contact me directly via phone, DM, or email:</p>
         <x-contact-info/>
     </div>
+    @if($submit)
+        <div>Thanks for reaching out! You will hear back within 2 days.</div>
+    @else
     <form method="post" action="/contact-submit">
         @csrf
         <div>
@@ -82,4 +85,5 @@
         </div>
         <input type="submit" value="submit">
     </form>
+    @endif
 @endsection
