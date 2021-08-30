@@ -42,4 +42,5 @@ mix.webpackConfig({
 mix.ts('resources/js/index.tsx', 'public/js')
     .react()
     .sass('resources/sass/app.scss', 'public/css')
-    .sass('resources/sass/form.scss', 'public/css');
+    .sass('resources/sass/form.scss', 'public/css')
+    .version();
