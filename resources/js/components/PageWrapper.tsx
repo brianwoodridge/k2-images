@@ -56,12 +56,12 @@ export const PageWrapper: React.FC = (props) => {
     return <>
         <AppBar className={classes.header} position="sticky">
             {/*<Toolbar>*/}
-            <Button>
+            <Button onClick={()=>history.push('/')}>
                 <K2images/>
             </Button>
             <ButtonGroup variant="text" color="primary" aria-label="navigation buttons">
-                <Button color="inherit" className={classes.button}>Home</Button>
-                <Button color="inherit" className={classes.button}>Portfolio</Button>
+                <Button color="inherit" onClick={()=>history.push('/')} className={classes.button}>Home</Button>
+                <Button color="inherit" onClick={()=>history.push('/portfolio')} className={classes.button}>Portfolio</Button>
                 <Button color="inherit" onClick={()=>history.push('/pricing')} className={classes.button}>Pricing</Button>
                 <Button color="inherit" onClick={()=>history.push('/contact')} className={classes.button}>Contact</Button>
             </ButtonGroup>

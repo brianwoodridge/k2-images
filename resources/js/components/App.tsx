@@ -29,7 +29,7 @@ function App() {
         <Router>
             <Switch>
                 {/* Public Routes */}
-                <Route exact path={'/home'}>
+                <Route exact path={'/'}>
                     <PageWrapper><div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div></PageWrapper>
                 </Route>
                 <Route exact path={'/pricing'}>
