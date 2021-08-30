@@ -1,0 +1,24 @@
+@import '../../../sass/variables';
+
+.logo {
+  margin: 40px 0 0 40px;
+  line-height: 70px;
+  display: inline-block;
+
+  >.k2 {
+    color:$orange;
+    font-family: 'Third Rail', sans-serif;
+    font-size: 85px;
+    font-weight: normal;
+    margin-right: 7px;
+    text-shadow: 1px 1px #666;
+  }
+  >.images {
+    color: white;
+    font-family: kallisto, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+    letter-spacing: 3px; //TODO convert to rems
+  }
+}

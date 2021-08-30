@@ -27,3 +27,5 @@ Route::post('/contact-submit', function (Request $request) {
     $data = ['submit' => true];
     return view('/contact', $data);
 })->name('contact-post');
+
+Route::get('/react', function () {return view('index');})->name('react');

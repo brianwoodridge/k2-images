@@ -1,5 +1,5 @@
 <div class="indented-children">
-    <a href="tel:111-111-1111"><x-icons.phone/>: 111-111-1111</a>
-    <a href="https://instagram.com/k2.images" target="_blank"><x-icons.instagram/>: @k2.images</a>
-    <a href="mailto:k2images@gmail.com"><x-icons.email/>: k2images@gmail.com</a>
+    <a href="tel:{{config('app.contact_phone')}}"><x-icons.phone/>: {{config('app.contact_phone')}}</a>
+    <a href="https://instagram.com/{{config('app.ig_handle')}}" target="_blank"><x-icons.instagram/>: {{'@' . config('app.ig_handle')}}</a>
+    <a href="mailto:{{config('app.contact_email')}}"><x-icons.email/>: {{config('app.contact_email')}}</a>
 </div>
