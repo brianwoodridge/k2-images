@@ -13,7 +13,10 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'K2images'),
+    'contact_email' => env('CONTACT_EMAIL', 'utnevik@gmail.com'),
+    'contact_phone' => env('CONTACT_PHONE', ''),
+    'ig_handle' => env('IG_HANDLE', 'k2.images'),
 
     /*
     |--------------------------------------------------------------------------
