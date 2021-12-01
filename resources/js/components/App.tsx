@@ -2,6 +2,7 @@ import * as React from 'react';
 import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 import {PageWrapper} from "./PageWrapper";
 import {PriceComponent} from "./PriceComponent";
+import {Home} from "./Home";
 // import axios from "axios";
 
 function App() {
