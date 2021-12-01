@@ -1,44 +1,44 @@
-@import '../../sass/variables';
-
-header {
-    color: white;
-    top: 0;
-    background: linear-gradient(to right, $sky-blue, $sky-blue-light);
-    margin: auto;
-    width: 100%;
-
-    #links {
-        line-height: 55px;
-        display: inline-block;
-        float: right;
-        margin-top: 60px;
-
-        // TODO get computed width of logo & links menu. If screen width is less then pass the media query
-        @media (max-width: 709px) {
-            margin-top: 0;
-        }
-        a {
-            text-transform: uppercase;
-            margin: 16px;
-            color: $accent-blue;
-        }
-    }
-}
-
-.header {
-    color:black !important;
-    align-items: baseline !important;
-    justify-content: space-between !important;
-    flex-direction: row !important;
-}
-.button {
-    color: var(--accent-blue)!important;
-    font-weight: normal !important;
-    border-color: white !important;
-    padding: 1rem 2rem !important;
-    margin-top: 2rem !important;
-    margin-bottom: 2rem !important;
-    &:hover {
-        //background-color: transparent !important;
-    }
-}
+//@import '../../sass/variables';
+//
+//header {
+//    color: white;
+//    top: 0;
+//    background: linear-gradient(to right, $sky-blue, $sky-blue-light);
+//    margin: auto;
+//    width: 100%;
+//
+//    #links {
+//        line-height: 55px;
+//        display: inline-block;
+//        float: right;
+//        margin-top: 60px;
+//
+//        // TODO get computed width of logo & links menu. If screen width is less then pass the media query
+//        @media (max-width: 709px) {
+//            margin-top: 0;
+//        }
+//        a {
+//            text-transform: uppercase;
+//            margin: 16px;
+//            color: $accent-blue;
+//        }
+//    }
+//}
+//
+//.header {
+//    color:black !important;
+//    align-items: baseline !important;
+//    justify-content: space-between !important;
+//    flex-direction: row !important;
+//}
+//.button {
+//    color: var(--accent-blue)!important;
+//    font-weight: normal !important;
+//    border-color: white !important;
+//    padding: 1rem 2rem !important;
+//    margin-top: 2rem !important;
+//    margin-bottom: 2rem !important;
+//    &:hover {
+//        //background-color: transparent !important;
+//    }
+//}

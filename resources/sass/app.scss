@@ -1,58 +1,58 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-@import 'fonts/fonts.css';
-
-// Variables
-@import 'variables';
-
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
-
-:root {
-  --orange: rgb(240,178,83);
-  --sky-blue: rgb(122,199,219);
-  --sky-blue-light: rgb(206,231,237);
-
-  --accent-blue: rgb(74,145,150);
-  --orange-1: rgb(234,160,76);
-  --orange-2: rgb(232,145,71);
-  --orange-3: rgb(230,129,64);
-  --orange-4: rgb(226,113,62);
-  --orange-5: rgb(223,100,56);
-}
-
-body {
-  background: $beige;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  font-family: 'Nunito', sans-serif;
-  main {
-    flex: 1; // Assures height of page is at least full height so footer ends up at bottom
-  }
-}
-footer {
-  padding: 20px;
-  font-size: 14px;
-  color: $accent-blue;
-  background: linear-gradient(to right, $sky-blue-light, $sky-blue);
-
-  .icon {
-    width: 15px;
-    height: 15px;
-    fill: $accent-blue;
-  }
-}
-
-a, button {
-  width: fit-content;
-}
-.icon {
-  display: inline;
-}
-.indented-children {
-  > * {
-    display: block;
-    margin-left: 1em;
-  }
-}
+//// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+//@import 'fonts/fonts.css';
+//
+//// Variables
+//@import 'variables';
+//
+//// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+//
+//:root {
+//  --orange: rgb(240,178,83);
+//  --sky-blue: rgb(122,199,219);
+//  --sky-blue-light: rgb(206,231,237);
+//
+//  --accent-blue: rgb(74,145,150);
+//  --orange-1: rgb(234,160,76);
+//  --orange-2: rgb(232,145,71);
+//  --orange-3: rgb(230,129,64);
+//  --orange-4: rgb(226,113,62);
+//  --orange-5: rgb(223,100,56);
+//}
+//
+//body {
+//  background: $beige;
+//  display: flex;
+//  flex-direction: column;
+//  min-height: 100vh;
+//  font-family: 'Nunito', sans-serif;
+//  main {
+//    flex: 1; // Assures height of page is at least full height so footer ends up at bottom
+//  }
+//}
+//footer {
+//  padding: 20px;
+//  font-size: 14px;
+//  color: $accent-blue;
+//  background: linear-gradient(to right, $sky-blue-light, $sky-blue);
+//
+//  .icon {
+//    width: 15px;
+//    height: 15px;
+//    fill: $accent-blue;
+//  }
+//}
+//
+//a, button {
+//  width: fit-content;
+//}
+//.icon {
+//  display: inline;
+//}
+//.indented-children {
+//  > * {
+//    display: block;
+//    margin-left: 1em;
+//  }
+//}

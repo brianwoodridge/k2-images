@@ -29,17 +29,28 @@ export const Home: React.FC = (props) => {
     const history = useHistory();
 
     return <>
+        <header><div>K2 IMAGES</div></header>
+        <main>
+            <h1>PORTOLIO</h1>
+            <div>PHOTO SLIDESHOW</div>
+        </main>
+        <footer>
+            <div>
+                <a href="mailto:kevinmdtu@gmail.com?subject=Photography Inquiry">kevinmdtu@gmail.com</a>
+                <a href="tel:+12812358538">281-235-8538</a>
+            </div>
+            <div>
+                <a href="mailto:kevinmdtu@gmail.com?subject=Photography Inquiry">[@]</a>
+                <a href="tel:+12812358538">[#]</a>
+                <a href="https://instagram.com/k2.images" target="_blank">[i]</a>
+            </div>
+            <span>&copy; 2021 Kevin Tu</span>
+        </footer>
         <AppBar className={classes.header} position="sticky">
             {/*<Toolbar>*/}
-            <Button onClick={()=>history.push('/')}>
+            <div onClick={()=>history.push('/')}>
                 K2 IMAGES
-            </Button>
-            <ButtonGroup variant="text" color="primary" aria-label="navigation buttons">
-                <Button color="inherit" onClick={()=>history.push('/')} className={"button"}>Home</Button>
-                <Button color="inherit" onClick={()=>history.push('/portfolio')} className={"button"}>Portfolio</Button>
-                <Button color="inherit" onClick={()=>history.push('/pricing')} className={"button"}>Pricing</Button>
-                <Button color="inherit" onClick={()=>history.push('/contact')} className={"button"}>Contact</Button>
-            </ButtonGroup>
+            </div>
             {/*</Toolbar>*/}
         </AppBar>
         {/*<Toolbar />*/}

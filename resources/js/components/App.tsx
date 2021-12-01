@@ -12,17 +12,8 @@ function App() {
             <Switch>
                 {/* Public Routes */}
                 <Route exact path={'/'}>
-                    <Home></Home>
+                    <Home/>
                 </Route>
-                <Route exact path={'/pricing'}>
-                    <PageWrapper><PriceComponent title="Graduation" hoursText="1+" photosText="18+" costText="95"/></PageWrapper>
-                </Route>
-                {/*<Route exact path={RoutePath.SITE_DOWN} component={SiteDownPage}/>*/}
-                {/*<Route path={RoutePath.WHAT_NEXT} component={WhatNextPage}/>*/}
-                {/*<Route path={RoutePath.SELL_WITH_US} component={SellWithUsPage}/>*/}
-                {/*<Route path={RoutePath.BIDDING_TERMS} component={BiddingTermsPage}/>*/}
-                {/*<Route path={RoutePath.TERMS_CONDITIONS} component={TermsAndConditionsPage} />*/}
-                {/*<Route path={RoutePath.PRIVACY_POLICY} component={PrivacyPolicyPage} />*/}
             </Switch>
         </Router>
     );

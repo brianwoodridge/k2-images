@@ -1,51 +1,51 @@
-div.contact-info {
-    margin: auto;
-    width: 40em;
-}
-
-form {
-    margin: 32px auto;
-    padding: 20px 0;
-    max-width: 90vw;
-    width: 40em;
-    background: tan;
-    div {
-        display: grid;
-        grid: auto / 40% 60%;
-        width: 30em;
-        max-width: 90vw;
-        margin: 8px auto auto;
-
-        label {
-            text-align: right;
-            margin-right: 10px;
-        }
-
-        input {
-            font-family: 'Nunito', sans-serif;
-        }
-
-        textarea {
-            font-family: 'Nunito', sans-serif;
-
-            &#location {
-                height: 4em;
-            }
-        }
-
-        .radio-option {
-            margin-left: 0.2em;
-            display: block;
-
-            > label > input {
-                margin-left: 25px;
-                width: -webkit-fill-available;
-            }
-        }
-    }
-    input[type="submit"] {
-        display: block;
-        padding: 10px;
-        margin: 20px auto auto;
-    }
-}
+//div.contact-info {
+//    margin: auto;
+//    width: 40em;
+//}
+//
+//form {
+//    margin: 32px auto;
+//    padding: 20px 0;
+//    max-width: 90vw;
+//    width: 40em;
+//    background: tan;
+//    div {
+//        display: grid;
+//        grid: auto / 40% 60%;
+//        width: 30em;
+//        max-width: 90vw;
+//        margin: 8px auto auto;
+//
+//        label {
+//            text-align: right;
+//            margin-right: 10px;
+//        }
+//
+//        input {
+//            font-family: 'Nunito', sans-serif;
+//        }
+//
+//        textarea {
+//            font-family: 'Nunito', sans-serif;
+//
+//            &#location {
+//                height: 4em;
+//            }
+//        }
+//
+//        .radio-option {
+//            margin-left: 0.2em;
+//            display: block;
+//
+//            > label > input {
+//                margin-left: 25px;
+//                width: -webkit-fill-available;
+//            }
+//        }
+//    }
+//    input[type="submit"] {
+//        display: block;
+//        padding: 10px;
+//        margin: 20px auto auto;
+//    }
+//}
