@@ -16,11 +16,6 @@ require('./bootstrap');
 import React from "react";
 import App from './components/App';
 import {render} from "react-dom";
-import ReactDOM from "react-router-dom";
-
-// import ReactDOM from 'react-router-dom';
-// import {ReactDOM} from "react";
-
 
 render(
     <React.StrictMode>

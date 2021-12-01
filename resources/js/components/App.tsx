@@ -5,32 +5,13 @@ import {PriceComponent} from "./PriceComponent";
 // import axios from "axios";
 
 function App() {
-    const CSRF_COOKIE_RETRY_RATE = 1000;
-
-    React.useEffect(() => {
-        // fetchCsrfCookie();
-    }, []);
-
-    // function fetchCsrfCookie() {
-    //     const csrfSuccessCallback: FailCallback = () => {
-    //         console.log("Successfully retrieved CSRF token");
-    //     }
-    //     const csrfFailCallback: FailCallback = () => {
-    //         console.error("Failed to get CSRF cookie, retrying");
-    //         setTimeout(() => {
-    //             baseApi.getCsrfCookie(csrfSuccessCallback, csrfFailCallback);
-    //         }, CSRF_COOKIE_RETRY_RATE);
-    //     };
-    //
-    //     baseApi.getCsrfCookie(csrfSuccessCallback, csrfFailCallback);
-    // }
 
     return (
         <Router>
             <Switch>
                 {/* Public Routes */}
                 <Route exact path={'/'}>
-                    <PageWrapper><div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div></PageWrapper>
+                    <Home></Home>
                 </Route>
                 <Route exact path={'/pricing'}>
                     <PageWrapper><PriceComponent title="Graduation" hoursText="1+" photosText="18+" costText="95"/></PageWrapper>

@@ -1,5 +1,5 @@
 import * as React from "react";
-// import "./K2images.module.scss";
+import "./K2images.scss";
 
 interface props {
     className?: string
